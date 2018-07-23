@@ -143,7 +143,7 @@ contract BlockworqCredit is ERC20Interface, Owned {
 
         name = "Blockworq Credit";
 
-        decimals = 18;
+        decimals = 9;
 
         _totalSupply = 786000000 * 10**uint(decimals);
 
